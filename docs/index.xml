@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Just a void.</title>
-    <link>https://hugotex.vercel.app/</link>
+    <link>https://sheng.page/</link>
     <description>Recent content on Just a void.</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://hugotex.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sheng.page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://hugotex.vercel.app/about/</link>
+      <link>https://sheng.page/about/</link>
       <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://hugotex.vercel.app/about/</guid>
+      <guid>https://sheng.page/about/</guid>
       <description>&lt;p&gt;You&amp;rsquo;d expect to find something deep and meaningful here, right? Well, plot twist—I&amp;rsquo;m still figuring out what to say, so for now, it&amp;rsquo;s just a blank canvas. Stay tuned for when inspiration strikes!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This site is proudly powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, the world&amp;rsquo;s fastest framework for building websites, and built with the &lt;a href=&#34;https://themes.gohugo.io/themes/hugotex/&#34;&gt;Hugotex theme&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Just a void.</title>
-    <link>https://hugotex.vercel.app/tags/</link>
+    <link>https://sheng.page/tags/</link>
     <description>Recent content in Tags on Just a void.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://hugotex.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sheng.page/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
-      <link>https://hugotex.vercel.app/tags/index/</link>
+      <link>https://sheng.page/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugotex.vercel.app/tags/index/</guid>
+      <guid>https://sheng.page/tags/index/</guid>
       <description></description>
     </item>
   </channel>

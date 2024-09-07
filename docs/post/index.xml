@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Just a void.</title>
-    <link>https://hugotex.vercel.app/post/</link>
+    <link>https://sheng.page/post/</link>
     <description>Recent content in Posts on Just a void.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://hugotex.vercel.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sheng.page/post/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
