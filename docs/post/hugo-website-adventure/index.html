@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8" />
+
+<title>My Crazy Adventure with Hugo: Building a Website - Just a void</title>
+
+
+
+
+
+<meta name="keywords" content="Hugo tutorial , GitHub Pages deployment , static website generator , Hugo themes" />
+
+<meta name="author" content="Sheng" />
+
+
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="My Crazy Adventure with Hugo: Building a Website" />
+<meta property="og:description" content="An exciting journey of building a website using Hugo, from installation to deployment on GitHub Pages." />
+<meta property="og:url" content="https://sheng.page/post/hugo-website-adventure/" />
+<meta property="og:image" content="https://sheng.page/images/social-share.png" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="My Crazy Adventure with Hugo: Building a Website" />
+<meta name="twitter:description" content="An exciting journey of building a website using Hugo, from installation to deployment on GitHub Pages." />
+<meta name="twitter:image" content="https://sheng.page/images/social-share.png" />
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://sheng.page/images/favicon.svg" />
+<link rel="stylesheet" href="https://sheng.page/css/latex.css" />
+<link rel="stylesheet" href="https://sheng.page/css/main.css" />
+<script id="MathJax-script" async src="https://sheng.page/js/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.134.1"><body class="latex-dark">
+
+
+
+
+
+
+<header>
+  <nav class="navbar">
+  <div class="nav">
+    
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
+</nav>
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>My Crazy Adventure with Hugo: Building a Website</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>
+  Sep 10, 2024
+  
+</span>
+      </div>
+      <br>
+      
+    <p>This article outline was organized by Sheng, with content filled by ChatGPT.</p>
+<p>Let’s be honest, most tech tutorials these days read like cooking recipes — step by step, no room for creativity! So instead of holding your hand through every little thing, I’ll just drop some key links here, and the rest is up to you. May the tech gods be in your favor!</p>
+<h2 id="1-install-hugo---easy-as-making-instant-noodles">1. Install Hugo - Easy as making instant noodles</h2>
+<p>This part is ridiculously easy. Just follow the instructions on the Hugo site like you&rsquo;re making instant noodles, and voilà, you’ve got Hugo installed.</p>
+<p><a href="https://gohugo.io/installation/">Installation | Hugo (gohugo.io)</a></p>
+<h2 id="2-create-your-website---its-like-playing-with-legos-but-the-blocks-move-on-their-own">2. Create Your Website - It’s like playing with LEGOs, but the blocks move on their own</h2>
+<p>Once Hugo is installed, follow the instructions to quickly build your website. It’s kind of like building with LEGOs, except these blocks move, grow, and transform on their own. It’s wild!</p>
+<p><a href="https://gohugo.io/getting-started/quick-start/#explanation-of-commands">Quick start | Hugo (gohugo.io)</a></p>
+<h2 id="3-choose-a-theme---pick-wisely-or-you-might-end-up-living-in-a-haunted-house">3. Choose a Theme - Pick wisely, or you might end up living in a haunted house</h2>
+<p>Choosing a theme is like finding your dream home. Choose wisely, or your website might end up looking like a haunted house that no one wants to visit. I personally went with the <a href="https://themes.gohugo.io/themes/hugotex/">Hugotex theme</a>, with a few tweaks of my own.</p>
+<p><a href="https://themes.gohugo.io/">Complete List | Hugo Themes (gohugo.io)</a></p>
+<h2 id="4-deploy-to-github-pages---become-the-real-estate-mogul-of-the-internet">4. Deploy to GitHub Pages - Become the real estate mogul of the internet</h2>
+<p>After building your website, it’s time to show it off to the world! Deploying to GitHub Pages is like turning yourself into a real estate tycoon of the web, putting your masterpiece on display for everyone to see.</p>
+<p>Pro tip: Look into using GitHub Actions for auto-deployment. Once you’ve written your post, just merge it to <code>main</code>, and boom! It’s live.
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Deploying Hugo on GitHub Pages</a></p>
+<hr>
+<p>Now let’s dive into a few key commands and features that’ll make your Hugo journey a breeze (or at least less of a hurricane).</p>
+<h2 id="important-hugo-commands-and-tricks">Important Hugo Commands and Tricks</h2>
+<ol>
+<li>
+<p><strong>Create a new post:</strong>
+Need a new blog post? Easy peasy, just type:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new post/your-awesome-title.md
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Create your custom post template:</strong>
+Want to save time on formatting every new post? Create a custom archetype in the <code>archetypes/</code> directory. Something like this will do:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;{{ replace .Name &#34;-&#34; &#34; &#34; | title }}&#34;
+</span></span><span style="display:flex;"><span>date: {{ .Date }}
+</span></span><span style="display:flex;"><span>draft: true
+</span></span><span style="display:flex;"><span>author: &#34;Sheng&#34;
+</span></span><span style="display:flex;"><span>description: &#34;&#34;
+</span></span><span style="display:flex;"><span>tags: []
+</span></span><span style="display:flex;"><span>keywords: []
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Use your custom template to create a new post:</strong>
+Now that you’ve got your fancy template, you can use this command to create a new post based on it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new --kind ../posts post/test.md
+</span></span></code></pre></div></li>
+</ol>
+<p>And there you have it! These are the essential tricks that’ll make working with Hugo feel less like a chore and more like you’re bending the internet to your will. Happy building!</p>
+
+
+
+      
+        <div class="blog-tags">
+          
+          <a href="https://sheng.page/tags/hugo/">Hugo</a>&nbsp;
+          
+          <a href="https://sheng.page/tags/website/">website</a>&nbsp;
+          
+          <a href="https://sheng.page/tags/github-pages/">GitHub Pages</a>&nbsp;
+          
+          <a href="https://sheng.page/tags/deployment/">deployment</a>&nbsp;
+          
+          <a href="https://sheng.page/tags/tutorial/">tutorial</a>&nbsp;
+          
+        </div>
+      
+    </article>
+    
+  </div>
+
+        </div><footer>
+  <div class="container" style="text-align: center;">
+    <div class="credits copyright">
+      
+      
+      
+      <a href="https://sheng.page/">Just a void</a>,
+      
+      &copy; 2024
+      <a href="https://sheng.page/about/">Sheng</a>
+    </div>
+
+    
+    <div class="social-media" style="margin-top: 10px;">
+      
+      <a rel="me" href="https://g0v.social/@sheng" target="_blank" rel="noopener noreferrer"
+        style="display: inline-block; margin-right: 10px;">
+        <img src="https://sheng.page/images/mastodon.svg" alt="Mastodon" style="width: 24px; height: 24px;" />
+      </a>
+
+      
+      <a href="https://github.com/yshengliao" target="_blank" rel="noopener noreferrer" style="display: inline-block;">
+        <img src="https://sheng.page/images/githubl.svg" alt="GitHub" style="width: 24px; height: 24px;" />
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

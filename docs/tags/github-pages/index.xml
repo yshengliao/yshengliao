@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Just a void</title>
-    <link>https://sheng.page/</link>
-    <description>Recent content on Just a void</description>
+    <title>GitHub Pages on Just a void</title>
+    <link>https://sheng.page/tags/github-pages/</link>
+    <description>Recent content in GitHub Pages on Just a void</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Sep 2024 01:52:50 +0800</lastBuildDate>
-    <atom:link href="https://sheng.page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sheng.page/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Crazy Adventure with Hugo: Building a Website</title>
       <link>https://sheng.page/post/hugo-website-adventure/</link>
       <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
       <guid>https://sheng.page/post/hugo-website-adventure/</guid>
       <description>&lt;p&gt;This article outline was organized by Sheng, with content filled by ChatGPT.&lt;/p&gt;&#xA;&lt;p&gt;Let’s be honest, most tech tutorials these days read like cooking recipes — step by step, no room for creativity! So instead of holding your hand through every little thing, I’ll just drop some key links here, and the rest is up to you. May the tech gods be in your favor!&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-install-hugo---easy-as-making-instant-noodles&#34;&gt;1. Install Hugo - Easy as making instant noodles&lt;/h2&gt;&#xA;&lt;p&gt;This part is ridiculously easy. Just follow the instructions on the Hugo site like you&amp;rsquo;re making instant noodles, and voilà, you’ve got Hugo installed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://sheng.page/about/</link>
-      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://sheng.page/about/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;d expect to find something deep and meaningful here, right? Well, plot twist—I&amp;rsquo;m still figuring out what to say, so for now, it&amp;rsquo;s just a blank canvas. Stay tuned for when inspiration strikes!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

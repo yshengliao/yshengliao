@@ -6,13 +6,48 @@
     <description>Recent content in Tags on Just a void</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Sep 2024 23:49:18 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 01:52:50 +0800</lastBuildDate>
     <atom:link href="https://sheng.page/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deployment</title>
+      <link>https://sheng.page/tags/deployment/</link>
+      <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
+      <guid>https://sheng.page/tags/deployment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Pages</title>
+      <link>https://sheng.page/tags/github-pages/</link>
+      <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
+      <guid>https://sheng.page/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://sheng.page/tags/hugo/</link>
+      <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
+      <guid>https://sheng.page/tags/hugo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Index</title>
       <link>https://sheng.page/tags/index/</link>
-      <pubDate>Sat, 07 Sep 2024 23:49:18 +0800</pubDate>
+      <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
       <guid>https://sheng.page/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>https://sheng.page/tags/tutorial/</link>
+      <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
+      <guid>https://sheng.page/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website</title>
+      <link>https://sheng.page/tags/website/</link>
+      <pubDate>Tue, 10 Sep 2024 01:52:50 +0800</pubDate>
+      <guid>https://sheng.page/tags/website/</guid>
       <description></description>
     </item>
   </channel>
