@@ -7,25 +7,31 @@ It processes semantic fields based on observer input, calculates entropy shift, 
 ---
 
 ```mermaid
-graph TD
-    O[Observer Interface] -->|observation signal| C[Collapse Engine]
-    SF[Semantic Field] -->|semantic input| C
+flowchart TD
+    START([Observer Interface])
+    START -->|observes| C[Collapse Engine]
+    SF[Semantic Field] -->|input| C
+
     C --> SC[Collapsed Semantic Field]
     C --> ER[Entropy Report]
+
     ER --> EM[Entropy Monitor]
-    EM -->|entropy logging| ENV[Entropy Redistribution]
+    EM -->|log| ENV[Entropy Redistribution]
 
     SC --> SG[Semantic Guardrail]
-    SG -->|output filtering| OUT[Domain Expression]
+    SG --> OUT[Domain Expression]
 
     OUT --> MF[Metasemantic Feedback Loop]
-    MF -->|feedback update| SF
+    MF -->|adjust| SF
 
-    style O fill:#f2f2f2,stroke:#000,stroke-width:1px
+    %% Styling
+    style START fill:#f2f2f2,stroke:#000,stroke-width:1px
     style C fill:#ffe599,stroke:#000,stroke-width:1px
+    style SF fill:#111111,color:#fff,stroke:#fff,stroke-width:1px
     style SC fill:#d9ead3,stroke:#000,stroke-width:1px
     style ER fill:#d0e0e3,stroke:#000,stroke-width:1px
     style EM fill:#cfe2f3,stroke:#000,stroke-width:1px
+    style ENV fill:#999999,color:#fff,stroke:#000,stroke-width:1px
     style SG fill:#f4cccc,stroke:#000,stroke-width:1px
     style OUT fill:#ead1dc,stroke:#000,stroke-width:1px
     style MF fill:#c9daf8,stroke:#000,stroke-width:1px
