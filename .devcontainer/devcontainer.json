@@ -32,6 +32,5 @@
     }
   },
   "postCreateCommand": "go install golang.org/x/tools/gopls@latest && pip install --upgrade pip && npm install",
-  "forwardPorts": [3000, 8000, 5000],
-  "remoteUser": "vscode"
+  "forwardPorts": [3000, 8000, 5000]
 }
