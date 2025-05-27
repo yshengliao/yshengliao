@@ -1,7 +1,6 @@
 {
   "name": "Universal Dev Container",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-
   "features": {
     "ghcr.io/devcontainers/features/go:1": {
       "version": "1.24"
@@ -10,12 +9,11 @@
       "version": "3.11"
     },
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "22"
+      "version": "20"
     },
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -28,17 +26,12 @@
         "github.copilot-chat"
       ],
       "settings": {
-        "go.gopath": "/workspace/go",
-        "go.useLanguageServer": true,
         "python.defaultInterpreterPath": "/usr/local/bin/python3",
         "editor.formatOnSave": true
       }
     }
   },
-
   "postCreateCommand": "go install golang.org/x/tools/gopls@latest && pip install --upgrade pip && npm install",
-
   "forwardPorts": [3000, 8000, 5000],
-
   "remoteUser": "vscode"
 }
