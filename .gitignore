@@ -13,3 +13,5 @@ env.*.sh
 .conf
 
 *.lock
+
+package-lock.json
