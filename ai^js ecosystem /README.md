@@ -239,7 +239,3 @@ Every package in this family must satisfy the following on every release. The li
 ## License
 
 Each package is published under the MIT License. See each package's `LICENSE` file.
-
-## Author
-
-ysl — <ysl@sheng.page>
