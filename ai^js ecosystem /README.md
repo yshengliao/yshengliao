@@ -1,5 +1,11 @@
 # ai*js — micro-runtime ecosystem
 
+[![status](https://img.shields.io/badge/ecosystem-experimental-orange?style=flat-square)](https://github.com/yshengliao?tab=repositories)
+[![license](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](#)
+[![typescript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)](#)
+[![runtime](https://img.shields.io/badge/runtime-Node%20%E2%80%A2%20Browser%20%E2%80%A2%20Worker-339933?style=flat-square)](#)
+[![made in](https://img.shields.io/badge/made_in-Taiwan-007BC2?style=flat-square)](#)
+
 > AI-readable, domain-neutral TypeScript micro-runtimes. Pure-function cores, opt-in subpaths, zero cross-package dependencies. Built for browser, Node, and Web Worker; usable far beyond the games it started in.
 
 | Package | Version | Role | dist (raw) | Repo |
