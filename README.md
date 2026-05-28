@@ -27,9 +27,9 @@ A family of seven framework-agnostic TypeScript packages. Zero cross-package dep
 | 6 | **aiquadtreejs** | 2D quadtree — per-frame rebuild collision broadphase | 2D 四元樹；每幀重建型碰撞 broadphase | [0.1.1](https://www.npmjs.com/package/aiquadtreejs) |
 | 7 | **aiaudiojs** | Audio shell over Howler.js — `AbortSignal` + first-class `crossfade()` | Howler.js 薄殼；`AbortSignal` 一致化、第一級 `crossfade()` | [0.1.1](https://www.npmjs.com/package/aiaudiojs) |
 
-Internal architecture notes, learnings, and conventions are archived under [`ai^js ecosystem/`](./ai%5Ejs%20ecosystem%20/) in this repo.
+Internal architecture notes, learnings, and conventions are archived under [`ai^js ecosystem/`](https://github.com/yshengliao/yshengliao/tree/main/ai%5Ejs%20ecosystem%20) in this repo.
 
-本生態系的內部架構紀錄、開發經驗、規範指引存放於本 repo 的 [`ai^js ecosystem/`](./ai%5Ejs%20ecosystem%20/) 目錄。
+本生態系的內部架構紀錄、開發經驗、規範指引存放於本 repo 的 [`ai^js ecosystem/`](https://github.com/yshengliao/yshengliao/tree/main/ai%5Ejs%20ecosystem%20) 目錄。
 
 ---
 
